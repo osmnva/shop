@@ -113,122 +113,37 @@ h1{
 {
     font-weight: 600;
 }
-.contact {
+.pannel{
     display: flex;
-    /*justify-content: center;*/
+    justify-content: center;
     align-items: center;
-    height: 1100px;
+    flex-direction: row;
     width: 100%;
-    flex-direction: column;
-
+    height: 46px;
+    background-color: #E8F9FD;
 }
-
-.contact .info{
+.filter {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    width: 650px;
-    flex-direction: column;
-
-}
-.content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 1060px;
-    justify-content: space-between;
-    margin-left: 100px;
-
-}
-.details {
-    display: flex;
+    align-items: first baseline;
     /*justify-content: center;*/
-    align-items: center;
     flex-direction: row;
-    width: 310px;
-    justify-content: space-between;
-
 }
-.info h2{
-    font-size: 36px;
+.filter h3{
+    font-size: 22px;
     color: black;
-    margin-top: 50px;
-    margin-bottom: 20px;
 }
-.info h4{
-    font-size: 16px;
+.filter h2{
+    font-size: 18px;
+}
+.filter h4{
+    font-size: 20px;
     color: #9F9F9F;
 }
-.icons h3{
-    font-size: 30px;
-    color: black;
-    padding-bottom: 150px;
-}
-.icons{
-    margin-right: 50px;
-}
-.description h2{
-    font-size: 24px;
-    color: black;
-}
-.description h4{
-    font-size: 16px;
-    color: black;
-    padding-bottom: 70px;
-}
-.description h5{
-    font-size: 16px;
-    color: black;
-}
-.contact-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-    border-radius: 5px;
-    width: 100%;
-}
-.login-container h2 {
-    margin-top: 0;
-    text-align: center;
-}
-.form {
-    margin-top: 20px;
-}
-.form-group {
-    margin-bottom: 50px;
-}
-.form-group label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-.form-group input {
-    width: 530px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-.form-group input:focus {
-    outline: none;
-    border-color: #007bff;
-}
-.form-group button {
-    width: 250px;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.form-group button:hover {
-    background-color: #0056b3;
-}
+
+
+
+
+
 
 
 .features {
