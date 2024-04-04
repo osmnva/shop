@@ -177,7 +177,36 @@ h1{
     background: #46B6C5;
     color: white;
     border-color: #46B6C5;
+    margin-top: 15px;
   }
+  .buy_button a{
+    color: #E8F9FD;
+    text-decoration: none;
+  }
+  .main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .section-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.img-dis {
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.img_title {
+    font-weight: 600px;
+    font-size: 24px;
+    color: black;
+}
 
 
 
